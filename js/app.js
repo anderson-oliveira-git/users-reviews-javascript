@@ -39,8 +39,6 @@ const info        = document.querySelector('#info');
 
 let id = 0;
 
-console.log(users[0]);
-
 function changeInfos(valueId) {
     userImg.setAttribute('src', users[valueId].img);
     author.innerHTML = users[valueId].nome;
